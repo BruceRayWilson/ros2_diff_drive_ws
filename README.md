@@ -5,6 +5,7 @@
 The Docker file is no longer named 'Docker'.  It is now named 'Dockerfile'.
 
 ```docker
+# This has been updated...
 FROM ros:iron
 
 # Install necessary packages
@@ -43,20 +44,37 @@ CMD ["bash"]
 ## Docker Build
 
 ```bash
-docker build -t ros2_diff_drive .
+cd /home/wilsonb/dl/github.com/BruceRayWilson/claude-3.5-001/ros2_diff_drive_ws/Docker/
+
+docker build -t ros2_diff_drive_jazzy .
 ```
 
 ## Docker Run
 
 ```bash
 docker run -it \
-    --name ros2_diff_drive \
+    --name ros2_diff_drive_jazzy \
     -v ~/dl/github.com/BruceRayWilson/claude-3.5-001/ros2_diff_drive_ws:/ros2_diff_drive_ws \
-    ros2_diff_drive
+    ros2_diff_drive_jazzy
 ```
 
 ## Docker Start
 
 ```bash
+changed
 docker start -i ros2_diff_drive
+```
+
+## Docker Remove Image
+
+If necessary:
+
+```bash
+docker rmi -f ros2_diff_drive
+```
+
+## Upgrade Docker
+
+```bash
+sudo apt upgrade docker.io -y
 ```
