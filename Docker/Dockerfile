@@ -26,7 +26,7 @@ USER $USERNAME
 RUN echo "source /opt/ros/iron/setup.bash" >> ~/.bashrc
 
 # Define the container mount point
-VOLUME /ros2_diff_drive_ws
+# VOLUME /ros2_diff_drive_ws
 WORKDIR /ros2_diff_drive_ws
 
 # Keep container running
