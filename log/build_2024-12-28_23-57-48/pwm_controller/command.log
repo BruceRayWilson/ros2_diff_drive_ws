@@ -1,0 +1,6 @@
+Invoking command in '/ros2_diff_drive_ws/build/pwm_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /ros2_diff_drive_ws/src/pwm_controller -DCMAKE_INSTALL_PREFIX=/ros2_diff_drive_ws/install/pwm_controller
+Invoked command in '/ros2_diff_drive_ws/build/pwm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /ros2_diff_drive_ws/src/pwm_controller -DCMAKE_INSTALL_PREFIX=/ros2_diff_drive_ws/install/pwm_controller
+Invoking command in '/ros2_diff_drive_ws/build/pwm_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /ros2_diff_drive_ws/build/pwm_controller -- -j32 -l32
+Invoked command in '/ros2_diff_drive_ws/build/pwm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /ros2_diff_drive_ws/build/pwm_controller -- -j32 -l32
+Invoking command in '/ros2_diff_drive_ws/build/pwm_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /ros2_diff_drive_ws/build/pwm_controller
+Invoked command in '/ros2_diff_drive_ws/build/pwm_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /ros2_diff_drive_ws/build/pwm_controller

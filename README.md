@@ -78,3 +78,36 @@ docker rmi -f ros2_diff_drive
 ```bash
 sudo apt upgrade docker.io -y
 ```
+
+## ROS2 Workspace
+
+```bash
+# Inside the container...
+cd /ros2_diff_drive_ws/src
+
+# Create a new package for the controller
+ros2 pkg create --build-type ament_cmake --dependencies rclcpp std_msgs geometry_msgs nav_msgs tf2 tf2_ros -- diff_drive_controller
+
+# Create a new package for the PWM control
+ros2 pkg create --build-type ament_cmake --dependencies rclcpp std_msgs -- pwm_controller
+
+# Build the workspace
+cd /ros2_diff_drive_ws
+colcon build
+
+```
+
+### Updates
+
+Update the description, maintainer, and license in the above nodes.
+
+### Colcon Build Output
+
+```text
+Starting >>> diff_drive_controller
+Starting >>> pwm_controller
+Finished <<< pwm_controller [0.53s]
+Finished <<< diff_drive_controller [0.63s]
+
+Summary: 2 packages finished [0.69s]
+```
