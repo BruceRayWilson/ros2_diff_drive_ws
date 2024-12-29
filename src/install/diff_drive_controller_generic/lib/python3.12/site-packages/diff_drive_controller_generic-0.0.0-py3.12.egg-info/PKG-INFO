@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: diff-drive-controller-generic
+Version: 0.0.0
+Summary: Generic diff drive controller
+Maintainer: root
+Maintainer-email: BruceRayWilson42@gmail.com
+License: MIT
+License-File: LICENSE

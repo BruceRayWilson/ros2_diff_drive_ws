@@ -1,4 +1,4 @@
-# Iron
+# Jazzy
 
 ## Dockerfile
 
@@ -86,10 +86,11 @@ sudo apt upgrade docker.io -y
 cd /ros2_diff_drive_ws/src
 
 # Create a new package for the controller
-ros2 pkg create --build-type ament_cmake --dependencies rclcpp std_msgs geometry_msgs nav_msgs tf2 tf2_ros -- diff_drive_controller
+ros2 pkg create --build-type ament_python --dependencies rclpy std_msgs geometry_msgs nav_msgs tf2 tf2_ros control_msgs sensor_msgs test_msgs launch_py --description "Generic diff drive controller" --maintainer-email BruceRayWilson42@gmail.com --license MIT diff_drive_controller_generic
+
 
 # Create a new package for the PWM control
-ros2 pkg create --build-type ament_cmake --dependencies rclcpp std_msgs -- pwm_controller
+ros2 pkg create --build-type ament_python --dependencies rclpy std_msgs sensor_msgs control_msgs launch_py --description "Generic PWM controller for robotics applications" --maintainer-email BruceRayWilson42@gmail.com --license MIT pwm_controller_generic
 
 # Build the workspace
 cd /ros2_diff_drive_ws
@@ -104,12 +105,12 @@ Update the description, maintainer, and license in the above nodes.
 ### Colcon Build Output
 
 ```text
-Starting >>> diff_drive_controller
-Starting >>> pwm_controller
-Finished <<< pwm_controller [0.53s]
-Finished <<< diff_drive_controller [0.63s]
+Starting >>> diff_drive_controller_generic
+Starting >>> pwm_controller_generic
+Finished <<< pwm_controller_generic [0.62s]
+Finished <<< diff_drive_controller_generic [0.63s]
 
-Summary: 2 packages finished [0.69s]
+Summary: 2 packages finished [0.71s]
 ```
 
 ## Commit Changes
@@ -119,5 +120,3 @@ Summary: 2 packages finished [0.69s]
 3. git commit -am "After colcon build."
 
 ## Create Differential Drive Controller Node
-
-
