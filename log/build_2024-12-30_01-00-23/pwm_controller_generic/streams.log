@@ -1,0 +1,22 @@
+[0.396s] Invoking command in '/ros2_diff_drive_ws/build/pwm_controller_generic': PYTHONPATH=/ros2_diff_drive_ws/build/pwm_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/pwm_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_diff_drive_ws/build/pwm_controller_generic/build --no-deps symlink_data
+[0.518s] running develop
+[0.574s] running egg_info
+[0.574s] creating pwm_controller_generic.egg-info
+[0.579s] writing pwm_controller_generic.egg-info/PKG-INFO
+[0.580s] writing dependency_links to pwm_controller_generic.egg-info/dependency_links.txt
+[0.580s] writing requirements to pwm_controller_generic.egg-info/requires.txt
+[0.580s] writing top-level names to pwm_controller_generic.egg-info/top_level.txt
+[0.580s] writing manifest file 'pwm_controller_generic.egg-info/SOURCES.txt'
+[0.591s] reading manifest file 'pwm_controller_generic.egg-info/SOURCES.txt'
+[0.591s] writing manifest file 'pwm_controller_generic.egg-info/SOURCES.txt'
+[0.598s] running build_ext
+[0.599s] Creating /ros2_diff_drive_ws/install/pwm_controller_generic/lib/python3.12/site-packages/pwm-controller-generic.egg-link (link to .)
+[0.600s] 
+[0.600s] Installed /ros2_diff_drive_ws/build/pwm_controller_generic
+[0.600s] running symlink_data
+[0.600s] creating /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index
+[0.600s] creating /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index/resource_index
+[0.600s] creating /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index/resource_index/packages
+[0.600s] symbolically linking /ros2_diff_drive_ws/build/pwm_controller_generic/resource/pwm_controller_generic -> /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index/resource_index/packages
+[0.600s] symbolically linking /ros2_diff_drive_ws/build/pwm_controller_generic/package.xml -> /ros2_diff_drive_ws/install/pwm_controller_generic/share/pwm_controller_generic
+[0.625s] Invoked command in '/ros2_diff_drive_ws/build/pwm_controller_generic' returned '0': PYTHONPATH=/ros2_diff_drive_ws/build/pwm_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/pwm_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_diff_drive_ws/build/pwm_controller_generic/build --no-deps symlink_data

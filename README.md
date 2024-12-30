@@ -98,10 +98,6 @@ colcon build
 
 ```
 
-### Updates
-
-Update the description, maintainer, and license in the above nodes.
-
 ### Colcon Build Output
 
 ```text
@@ -122,3 +118,14 @@ Summary: 2 packages finished [0.71s]
 ## Create Differential Drive Controller Node
 
 ## Create PWM Node
+
+### Create pwm_controller_generic.py
+
+Done.
+
+### Next Steps
+
+Build the package using colcon build.
+Run the node using ros2 run pwm_controller_generic pwm_controller_generic.
+Publish duty cycle values to the /duty_cycle topic using ros2 topic pub /duty_cycle std_msgs/msg/Float64 "data: 0.5".
+Observe the PWM state on the /pwm_state topic using ros2 topic echo /pwm_state.

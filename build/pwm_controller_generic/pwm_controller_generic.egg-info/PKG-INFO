@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pwm-controller-generic
+Version: 0.0.0
+Summary: Generic PWM controller for robotics applications
+Maintainer: root
+Maintainer-email: BruceRayWilson42@gmail.com
+License: MIT

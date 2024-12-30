@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/pwm_controller_generic/pwm_controller_generic.egg-info/PKG-INFO
+writing dependency_links to ../build/pwm_controller_generic/pwm_controller_generic.egg-info/dependency_links.txt
+writing requirements to ../build/pwm_controller_generic/pwm_controller_generic.egg-info/requires.txt
+writing top-level names to ../build/pwm_controller_generic/pwm_controller_generic.egg-info/top_level.txt
+reading manifest file '../build/pwm_controller_generic/pwm_controller_generic.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/pwm_controller_generic/pwm_controller_generic.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pwm_controller_generic/pwm_controller_generic.py -> /ros2_diff_drive_ws/src/build/pwm_controller_generic/build/lib/pwm_controller_generic
+running install
+running install_lib
+copying /ros2_diff_drive_ws/src/build/pwm_controller_generic/build/lib/pwm_controller_generic/pwm_controller_generic.py -> /ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic
+byte-compiling /ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic/pwm_controller_generic.py to pwm_controller_generic.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/pwm_controller_generic/pwm_controller_generic.egg-info to /ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/ros2_diff_drive_ws/src/build/pwm_controller_generic/install.log'

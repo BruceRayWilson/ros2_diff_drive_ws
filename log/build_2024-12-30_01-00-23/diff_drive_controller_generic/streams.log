@@ -1,0 +1,22 @@
+[0.399s] Invoking command in '/ros2_diff_drive_ws/build/diff_drive_controller_generic': PYTHONPATH=/ros2_diff_drive_ws/build/diff_drive_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_diff_drive_ws/build/diff_drive_controller_generic/build --no-deps symlink_data
+[0.522s] running develop
+[0.578s] running egg_info
+[0.578s] creating diff_drive_controller_generic.egg-info
+[0.584s] writing diff_drive_controller_generic.egg-info/PKG-INFO
+[0.584s] writing dependency_links to diff_drive_controller_generic.egg-info/dependency_links.txt
+[0.584s] writing requirements to diff_drive_controller_generic.egg-info/requires.txt
+[0.584s] writing top-level names to diff_drive_controller_generic.egg-info/top_level.txt
+[0.584s] writing manifest file 'diff_drive_controller_generic.egg-info/SOURCES.txt'
+[0.595s] reading manifest file 'diff_drive_controller_generic.egg-info/SOURCES.txt'
+[0.595s] writing manifest file 'diff_drive_controller_generic.egg-info/SOURCES.txt'
+[0.602s] running build_ext
+[0.603s] Creating /ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages/diff-drive-controller-generic.egg-link (link to .)
+[0.603s] 
+[0.603s] Installed /ros2_diff_drive_ws/build/diff_drive_controller_generic
+[0.603s] running symlink_data
+[0.603s] creating /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/ament_index
+[0.604s] creating /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/ament_index/resource_index
+[0.604s] creating /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/ament_index/resource_index/packages
+[0.604s] symbolically linking /ros2_diff_drive_ws/build/diff_drive_controller_generic/resource/diff_drive_controller_generic -> /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/ament_index/resource_index/packages
+[0.604s] symbolically linking /ros2_diff_drive_ws/build/diff_drive_controller_generic/package.xml -> /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/diff_drive_controller_generic
+[0.622s] Invoked command in '/ros2_diff_drive_ws/build/diff_drive_controller_generic' returned '0': PYTHONPATH=/ros2_diff_drive_ws/build/diff_drive_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_diff_drive_ws/build/diff_drive_controller_generic/build --no-deps symlink_data

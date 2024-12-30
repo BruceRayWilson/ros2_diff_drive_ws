@@ -9,6 +9,7 @@ setup.py
 ../build/pwm_controller_generic/pwm_controller_generic.egg-info/top_level.txt
 ../build/pwm_controller_generic/pwm_controller_generic.egg-info/zip-safe
 pwm_controller_generic/__init__.py
+pwm_controller_generic/pwm_controller_generic.py
 resource/pwm_controller_generic
 test/test_copyright.py
 test/test_flake8.py

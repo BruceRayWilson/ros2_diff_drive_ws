@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating pwm_controller_generic.egg-info
+writing pwm_controller_generic.egg-info/PKG-INFO
+writing dependency_links to pwm_controller_generic.egg-info/dependency_links.txt
+writing requirements to pwm_controller_generic.egg-info/requires.txt
+writing top-level names to pwm_controller_generic.egg-info/top_level.txt
+writing manifest file 'pwm_controller_generic.egg-info/SOURCES.txt'
+reading manifest file 'pwm_controller_generic.egg-info/SOURCES.txt'
+writing manifest file 'pwm_controller_generic.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_diff_drive_ws/install/pwm_controller_generic/lib/python3.12/site-packages/pwm-controller-generic.egg-link (link to .)
+
+Installed /ros2_diff_drive_ws/build/pwm_controller_generic
+running symlink_data
+creating /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index
+creating /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index/resource_index
+creating /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index/resource_index/packages
+symbolically linking /ros2_diff_drive_ws/build/pwm_controller_generic/resource/pwm_controller_generic -> /ros2_diff_drive_ws/install/pwm_controller_generic/share/ament_index/resource_index/packages
+symbolically linking /ros2_diff_drive_ws/build/pwm_controller_generic/package.xml -> /ros2_diff_drive_ws/install/pwm_controller_generic/share/pwm_controller_generic

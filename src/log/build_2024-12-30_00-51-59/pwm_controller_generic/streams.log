@@ -1,0 +1,23 @@
+[0.397s] Invoking command in '/ros2_diff_drive_ws/src/pwm_controller_generic': PYTHONPATH=/ros2_diff_drive_ws/src/build/pwm_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pwm_controller_generic build --build-base /ros2_diff_drive_ws/src/build/pwm_controller_generic/build install --record /ros2_diff_drive_ws/src/build/pwm_controller_generic/install.log --single-version-externally-managed install_data
+[0.498s] running egg_info
+[0.504s] writing ../build/pwm_controller_generic/pwm_controller_generic.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../build/pwm_controller_generic/pwm_controller_generic.egg-info/dependency_links.txt
+[0.504s] writing requirements to ../build/pwm_controller_generic/pwm_controller_generic.egg-info/requires.txt
+[0.504s] writing top-level names to ../build/pwm_controller_generic/pwm_controller_generic.egg-info/top_level.txt
+[0.515s] reading manifest file '../build/pwm_controller_generic/pwm_controller_generic.egg-info/SOURCES.txt'
+[0.515s] adding license file 'LICENSE'
+[0.516s] writing manifest file '../build/pwm_controller_generic/pwm_controller_generic.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.516s] running build_py
+[0.516s] copying pwm_controller_generic/pwm_controller_generic.py -> /ros2_diff_drive_ws/src/build/pwm_controller_generic/build/lib/pwm_controller_generic
+[0.516s] running install
+[0.520s] running install_lib
+[0.526s] copying /ros2_diff_drive_ws/src/build/pwm_controller_generic/build/lib/pwm_controller_generic/pwm_controller_generic.py -> /ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic
+[0.526s] byte-compiling /ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic/pwm_controller_generic.py to pwm_controller_generic.cpython-312.pyc
+[0.526s] running install_data
+[0.527s] running install_egg_info
+[0.533s] removing '/ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic-0.0.0-py3.12.egg-info' (and everything under it)
+[0.534s] Copying ../build/pwm_controller_generic/pwm_controller_generic.egg-info to /ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages/pwm_controller_generic-0.0.0-py3.12.egg-info
+[0.534s] running install_scripts
+[0.577s] writing list of installed files to '/ros2_diff_drive_ws/src/build/pwm_controller_generic/install.log'
+[0.596s] Invoked command in '/ros2_diff_drive_ws/src/pwm_controller_generic' returned '0': PYTHONPATH=/ros2_diff_drive_ws/src/build/pwm_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/src/install/pwm_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pwm_controller_generic build --build-base /ros2_diff_drive_ws/src/build/pwm_controller_generic/build install --record /ros2_diff_drive_ws/src/build/pwm_controller_generic/install.log --single-version-externally-managed install_data
