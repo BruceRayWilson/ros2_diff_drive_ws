@@ -1,0 +1,32 @@
+[0.355s] Invoking command in '/ros2_diff_drive_ws/build/diff_drive_controller_generic': PYTHONPATH=/ros2_diff_drive_ws/build/diff_drive_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros2_diff_drive_ws/build/diff_drive_controller_generic/build
+[0.467s] running develop
+[0.515s] Removing /ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages/diff-drive-controller-generic.egg-link (link to .)
+[0.527s] Invoked command in '/ros2_diff_drive_ws/build/diff_drive_controller_generic' returned '0': PYTHONPATH=/ros2_diff_drive_ws/build/diff_drive_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros2_diff_drive_ws/build/diff_drive_controller_generic/build
+[0.527s] Invoking command in '/ros2_diff_drive_ws/src/diff_drive_controller_generic': PYTHONPATH=/ros2_diff_drive_ws/build/diff_drive_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_drive_controller_generic build --build-base /ros2_diff_drive_ws/build/diff_drive_controller_generic/build install --record /ros2_diff_drive_ws/build/diff_drive_controller_generic/install.log --single-version-externally-managed install_data --force
+[0.616s] running egg_info
+[0.620s] writing ../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info/PKG-INFO
+[0.620s] writing dependency_links to ../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info/dependency_links.txt
+[0.620s] writing requirements to ../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info/top_level.txt
+[0.630s] reading manifest file '../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info/SOURCES.txt'
+[0.630s] adding license file 'LICENSE'
+[0.630s] writing manifest file '../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info/SOURCES.txt'
+[0.630s] running build
+[0.630s] running build_py
+[0.630s] creating /ros2_diff_drive_ws/build/diff_drive_controller_generic/build
+[0.630s] creating /ros2_diff_drive_ws/build/diff_drive_controller_generic/build/lib
+[0.631s] creating /ros2_diff_drive_ws/build/diff_drive_controller_generic/build/lib/diff_drive_controller_generic
+[0.631s] copying diff_drive_controller_generic/__init__.py -> /ros2_diff_drive_ws/build/diff_drive_controller_generic/build/lib/diff_drive_controller_generic
+[0.631s] running install
+[0.633s] running install_lib
+[0.638s] creating /ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages/diff_drive_controller_generic
+[0.638s] copying /ros2_diff_drive_ws/build/diff_drive_controller_generic/build/lib/diff_drive_controller_generic/__init__.py -> /ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages/diff_drive_controller_generic
+[0.638s] byte-compiling /ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages/diff_drive_controller_generic/__init__.py to __init__.cpython-312.pyc
+[0.638s] running install_data
+[0.638s] copying resource/diff_drive_controller_generic -> /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/ament_index/resource_index/packages
+[0.639s] copying package.xml -> /ros2_diff_drive_ws/install/diff_drive_controller_generic/share/diff_drive_controller_generic
+[0.639s] running install_egg_info
+[0.644s] Copying ../../build/diff_drive_controller_generic/diff_drive_controller_generic.egg-info to /ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages/diff_drive_controller_generic-0.0.0-py3.12.egg-info
+[0.644s] running install_scripts
+[0.681s] writing list of installed files to '/ros2_diff_drive_ws/build/diff_drive_controller_generic/install.log'
+[0.692s] Invoked command in '/ros2_diff_drive_ws/src/diff_drive_controller_generic' returned '0': PYTHONPATH=/ros2_diff_drive_ws/build/diff_drive_controller_generic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_diff_drive_ws/install/diff_drive_controller_generic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_drive_controller_generic build --build-base /ros2_diff_drive_ws/build/diff_drive_controller_generic/build install --record /ros2_diff_drive_ws/build/diff_drive_controller_generic/install.log --single-version-externally-managed install_data --force

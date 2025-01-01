@@ -1,1 +1,0 @@
-/ros2_diff_drive_ws/src/diff_drive_controller_generic/setup.py

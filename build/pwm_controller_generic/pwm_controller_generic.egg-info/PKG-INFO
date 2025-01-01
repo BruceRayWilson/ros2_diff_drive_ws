@@ -5,3 +5,4 @@ Summary: Generic PWM controller for robotics applications
 Maintainer: root
 Maintainer-email: BruceRayWilson42@gmail.com
 License: MIT
+License-File: LICENSE
